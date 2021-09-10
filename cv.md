@@ -18,3 +18,12 @@
 `in the future`
 
 ## Experience
+
+## Education
+* HTML and CSS fundamentals on the [html5book](https://html5book.ru/)
+* JavaScript Manual on [learnjavascript](learnjavascript.ru)
+* RS Schools Course "JavaScript/Front-end"
+
+## Languages
+* **Russian** - Native
+* **English** - A2
