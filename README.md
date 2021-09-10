@@ -1,1 +1,0 @@
-1. [Markdown & Git](https://mvdns.github.io/rsschool-cv/cv)
