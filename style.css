@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-   width: 960px;
+   max-width: 970px;
    border: #a4a3a2 solid 1px;
    border-radius: 2%;
    overflow: hidden;
@@ -47,9 +47,8 @@ body {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   width: 700px;
-   margin: 0 auto;
-   padding: 40px 0;
+   margin: 0 135px;
+   padding: 40px 0px;
    border-top: #cfd6dd solid 2px;
 }
 
@@ -109,4 +108,114 @@ footer {
 
 .footer__rsschool {
    max-width: 100%;
+}
+
+@media (max-width:992px) {
+	.container {
+		max-width: 750px;
+	}
+
+	.header {
+		padding: 70px 0 0 0;
+		margin-bottom: 20px;
+		font-size: 35px;
+	}
+	
+	.header__avatar {
+		height: 200px;
+		width: 200px;
+	}
+
+	.header__name { 
+		margin-top: 20px;
+	}
+	
+	.header__prof {
+		font-size: 18px;
+	}
+
+	.wrapper {
+		margin: 0 85px;
+		padding: 20px 0px;
+	}
+	
+	.column {
+		width: 280px;
+		margin-bottom: 15px;
+		line-height: 1.5;
+	}
+	
+	.head {
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+
+}
+
+
+@media (max-width:767px) {
+	.container {
+		max-width: 750px;
+		margin: 0 15px;
+	}
+
+	.header {
+		margin-bottom: 15px;
+		font-size: 30px;
+	}
+
+	.header__name { 
+		margin-top: 10px;
+	}
+	
+	.header__prof {
+		font-size: 18px;
+		color: #7d675d;
+	}
+
+	.wrapper {
+		display: block;
+		margin: 0 80px;
+		padding: 15px 0px;
+		border-top: #cfd6dd solid 2px;
+	}
+
+	.head {
+		margin-bottom: 0px;
+		font-size: 23px;
+	}
+
+	.column {	
+		width: 100%;
+		margin-bottom: 15px;
+		line-height: 1.5;
+	}
+
+}
+
+@media (max-width:480px) {
+	.container {
+		max-width: none;
+		margin: 0 auto;
+		border: none;
+		border-radius: 0;
+		overflow: hidden;
+	}
+
+	.header { 
+		font-size: 25px;
+	}
+
+	.header__avatar {
+		height: 150px;
+		width: 150px;
+	}
+
+	.wrapper {
+		margin: 0 30px;
+	}
+
+	.head {
+		font-size: 20px;
+	}
 }
