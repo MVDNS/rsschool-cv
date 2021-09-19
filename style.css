@@ -52,10 +52,6 @@ body {
    border-top: #cfd6dd solid 2px;
 }
 
-pre{
-	white-space:pre-wrap;
-}
-
 .column {
    width: 300px;
    margin-bottom: 30px;
